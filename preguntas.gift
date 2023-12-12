@@ -1,0 +1,35 @@
+Cal dos seguintes mostrará o tipo de dato da columna concello
+~Ningunha é correcta
+~type(df=concello)
+~type(df[concello])
+=type(df.concello)
+
+Como podemos limpar os espazos vacios no dataframe:
+~Non se pode realizar unha limpeza dos espazos vacios
+~Coa sintaxe df.shape()
+~Coa sintaxe df.filla()
+=Coa sintaxe df.fillna()
+
+Que deberemos instalar para que se nos permita exportar un dataframe a excel:
+~tempfiles
+~fastparquet
+=openpyxl
+~concat
+
+Cal das seguintes sintaxis e correcta:
+~dfTotal[ dfTotal['Tipo de centro']=='CEIP' & dfTotal['Provincia']=='A Coruña' ]
+=dfTotal[(dfTotal['Tipo de centro']=='CEIP')&(dfTotal['Provincia']=='A Coruña')]
+~dfTotal((dfTotal['Tipo de centro']=='CEIP')&(dfTotal['Provincia']=='A Coruña'))
+~dfTotal([dfTotal['Tipo de centro']=='CEIP')&(dfTotal['Provincia']=='A Coruña'])
+
+Cal das seguintes secuencias serve para amosar unha columna:
+~df:columna
+~df{'columna'}
+~df[columna]
+=df.columna
+
+Cal dos seguintes mostrará as 5 primeiras lineas do dataframe:
+~df.heat()
+=df.head()
+~df.tail()
+~df.shape()
