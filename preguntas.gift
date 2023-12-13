@@ -1,35 +1,30 @@
-Cal dos seguintes mostrará o tipo de dato da columna concello
-~Ningunha é correcta
-~type(df=concello)
-~type(df[concello])
-=type(df.concello)
+1. ¿Qué función se utiliza para leer un archivo CSV en pandas?{
+~pd.exit()
+~pd.read() 
+=pd.read_csv()
+~pd.csv()
+}
 
-Como podemos limpar os espazos vacios no dataframe:
-~Non se pode realizar unha limpeza dos espazos vacios
-~Coa sintaxe df.shape()
-~Coa sintaxe df.filla()
-=Coa sintaxe df.fillna()
+2. Un fichero XML tiene una estructura{
+~Estructurado
+~No Estructurado
+=Semi-Estructurado
+}
 
-Que deberemos instalar para que se nos permita exportar un dataframe a excel:
-~tempfiles
-~fastparquet
-=openpyxl
-~concat
+3. Las bases de datos relacionales se consideran{
+=Datos estructurados
+~Datos semiestructurados
+~Datos no estructurados
+}
 
-Cal das seguintes sintaxis e correcta:
-~dfTotal[ dfTotal['Tipo de centro']=='CEIP' & dfTotal['Provincia']=='A Coruña' ]
-=dfTotal[(dfTotal['Tipo de centro']=='CEIP')&(dfTotal['Provincia']=='A Coruña')]
-~dfTotal((dfTotal['Tipo de centro']=='CEIP')&(dfTotal['Provincia']=='A Coruña'))
-~dfTotal([dfTotal['Tipo de centro']=='CEIP')&(dfTotal['Provincia']=='A Coruña'])
-
-Cal das seguintes secuencias serve para amosar unha columna:
-~df:columna
-~df{'columna'}
-~df[columna]
-=df.columna
-
-Cal dos seguintes mostrará as 5 primeiras lineas do dataframe:
-~df.heat()
-=df.head()
-~df.tail()
+4. ¿Cómo se muestran las últimas filas del dataframe?{
 ~df.shape()
+=df.tail()
+~df.head
+}
+
+5. ¿Cómo se muestran las primeras filas del dataframe?{
+~df.shape()
+~df.tail()
+=df.head
+}
